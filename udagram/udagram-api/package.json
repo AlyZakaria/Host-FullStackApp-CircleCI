@@ -10,7 +10,7 @@
     "clean": "rm -rf www/ || true",
     "setEnv":"sh bin/setEnv.sh",
     "deploy": "npm run build && eb list && eb use Hostfullstackapp-env && npm run setEnv && cd www && eb deploy ",
-    "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp -rf .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && 7z a Archive.zip . && cd ..",
+    "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp -rf .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
