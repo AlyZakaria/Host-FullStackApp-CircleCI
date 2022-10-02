@@ -71,25 +71,20 @@ jobs:
               echo "# TODO: Install, build, deploy in Back-end" 
               npm run api:deploy
           
-# workflows:
-#   udagram:
-#     jobs:
-#       - build
-#       - hold:
-#           filters:
-#             branches:
-#               only:
-#                 - master
-#           type: approval
-#           requires:
-#             - build
-#       - deploy
-#       - hold:
-#           filters:
-#             branches:
-#               only:
-#                 - master
-#           type: approval
-#           requires:
-#             - deploy
-# ...
+workflows:
+  udagram:
+    jobs:
+      - build
+      - hold:
+          filters:
+            branches:
+              only:
+                - master
+          type: approval
+          requires:
+            - build
+      - deploy
+      - hold:
+          requires:
+            - build
+...
