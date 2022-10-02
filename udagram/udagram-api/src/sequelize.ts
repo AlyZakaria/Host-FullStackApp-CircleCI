@@ -6,7 +6,6 @@ import { config } from "./config/config";
   password: config.password,
   database: config.database,
   host: config.host,
-
   dialect: "postgres",
   storage: ":memory:",
 });
