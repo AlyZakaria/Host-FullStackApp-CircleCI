@@ -14,8 +14,9 @@ jobs:
     # install node and checkout code
     steps:
       - node/install
+      - checkout
       # Use root level package.json to install dependencies in the frontend app
-      -run:
+      - run:
           name: Install Front-End Dependencies
           command: |
             echo "NODE --version" 
@@ -68,13 +69,13 @@ jobs:
           command: |
             echo "# TODO: Install, build, deploy in Front-end"
             npm run frontend:deploy
-      # TODO: Install, build, deploy in back-end 
-      -run:
+      - run:
           name: Deploy backend-End App
+          # TODO: Install, build, deploy in back-end 
           command: |
-          echo "# TODO: Install, build, deploy in Back-end"
-          npm run api:deploy
-            
+              echo "# TODO: Install, build, deploy in Back-end" 
+              npm run api:deploy
+          
 workflows:
   udagram:
     jobs:
