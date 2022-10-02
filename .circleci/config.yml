@@ -5,7 +5,6 @@ orbs:
   node: circleci/node@5.0.2
   eb: circleci/aws-elastic-beanstalk@2.0.1
   aws-cli: circleci/aws-cli@3.1.1
-  shell: /usr/local/bin/bash --login -eo pipefail
   # different jobs are calles later in the workflows sections
 jobs:
   build:
@@ -16,10 +15,6 @@ jobs:
     steps:
       - node/install
       - checkout
-      - run:
-          name: Install bash 5 using the system bash
-          shell: /bin/bash -eo pipefail # Use the system bash for this step.
-          command: brew install bash
       # Use root level package.json to install dependencies in the frontend app
       - run:
           name: Install Front-End Dependencies
