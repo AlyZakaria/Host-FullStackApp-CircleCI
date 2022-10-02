@@ -12,8 +12,7 @@ jobs:
       - image: "cimg/node:14.15"
     steps:
       # install node and checkout code
-      - node/install:
-          node-version: '14.15'         
+      - node/install      
       - checkout
       # Use root level package.json to install dependencies in the frontend app
       - run:
@@ -59,8 +58,7 @@ jobs:
       - image: "cimg/base:stable"
       # more setup needed for aws, node, elastic beanstalk
     steps:
-      - node/install:
-          node-version: '14.15' 
+      - node/install
       - eb/setup
       - aws-cli/setup
       - checkout
