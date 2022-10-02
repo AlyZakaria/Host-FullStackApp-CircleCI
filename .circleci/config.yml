@@ -12,7 +12,7 @@ jobs:
     docker:
       - image: "cimg/node:14.15"
     # install node and checkout code
-     steps:
+    steps:
       - node/install
       - checkout
       # Use root level package.json to install dependencies in the frontend app
