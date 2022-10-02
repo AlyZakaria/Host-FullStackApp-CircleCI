@@ -14,9 +14,8 @@ jobs:
     # install node and checkout code
     steps:
       - node/install
-      - checkout
       # Use root level package.json to install dependencies in the frontend app
-      - run:
+      -run:
           name: Install Front-End Dependencies
           command: |
             echo "NODE --version" 
