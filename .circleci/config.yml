@@ -81,8 +81,6 @@ workflows:
               only:
                 - main
           type: approval
-          requires:
-            - build
       - deploy:
           requires:
             - build
