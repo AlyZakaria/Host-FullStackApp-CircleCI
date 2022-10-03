@@ -51,7 +51,7 @@ This project is to deploy a full-stack application to cloud service(aws) which c
 ---
 
 ### Here are the infrastructure of the project -> [Infrastructure](documentation\infrastructure.md)
-![infrastructure](Screenshots\architecture.png)
+![infrastructure](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/architecture.png)
 
 ---
 ## Project Dependencies
@@ -62,4 +62,4 @@ This project is to deploy a full-stack application to cloud service(aws) which c
 ## Pipeline Process 
  
 ### pipeline process are mentioned here -> [pipelineprocess](documentation\pipelineProcess.md)
-![pipeline](Screenshots\pipelineProcess.png)
+![pipeline](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/pipelineProcess.png)

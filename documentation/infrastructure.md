@@ -6,16 +6,16 @@ There are steps to make the infrastructure of our deployment application
 
 ## How did the project create?
 1. We need to ceate database with RDS provided by aws.
-![RDS](..\Screenshots\rds_1.png)
+![RDS](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/rds_1.png)
 
 2. We need to create our envirmont with elastic beanstalk which called Host-fullstack-app-env and nodeJs plateform and default region which is us-east-1. 
-![Elastic Beanstalk](..\Screenshots\EB_1.png)
+![Elastic Beanstalk](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/EB_1.png)
 ### We set our enviroment variables through our code
-![aws_env](..\Screenshots\aws_env.png)
+![aws_env](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/aws_env.png)
 
 
 3. Create s3 bucket to put our frontend app.
-![s3_bucket](..\Screenshots\s3_1.png)
+![s3_bucket](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/s3_1.png)
  ### This is our Bucket policy
 ***
     {
@@ -36,7 +36,7 @@ There are steps to make the infrastructure of our deployment application
     }
 
 4. After we test our deployment application we connect our project to my circleCi account, CircleCi execute the config.yml file in .circleci .
-![CircleCi](..\Screenshots\CI_1.png)
+![CircleCi](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/CI_1.png)
 
 
 

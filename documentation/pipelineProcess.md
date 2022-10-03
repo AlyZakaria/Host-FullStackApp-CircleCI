@@ -4,7 +4,7 @@ When developers just make a change and send it to the repository, automated pack
 
 ### Here is the architecture of the pipeline process...
 
-![PipeLine Process](..\Screenshots\pipelineProcess.png)
+![PipeLine Process](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/pipelineProcess.png)
 
 
 
