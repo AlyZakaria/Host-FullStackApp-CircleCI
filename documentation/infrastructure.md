@@ -1,6 +1,6 @@
 ### The Architecture Digram
 
-![arhitecture diagram](../Screenshots/architecture.png)
+![arhitecture diagram](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/architecture.png)
 
 There are steps to make the infrastructure of our deployment application
 
