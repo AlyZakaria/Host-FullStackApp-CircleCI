@@ -50,16 +50,16 @@ This project is to deploy a full-stack application to cloud service(aws) which c
         cd ../udagram-frontend && npm run start
 ---
 
-### Here are the infrastructure of the project -> [Infrastructure](documentation\infrastructure.md)
-![infrastructure](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/architecture.png)
+### Here are the infrastructure of the project -> [Infrastructure](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/documentation/infrastructure.md)
+![infrastructure](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/architecture.png       )
 
 ---
 ## Project Dependencies
 
-### Project dependencies are mentioned here -> [appDependencies](documentation\appDependencies.md)
+### Project dependencies are mentioned here -> [appDependencies](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/documentation/appDependencies.md)
 
 ---
 ## Pipeline Process 
  
-### pipeline process are mentioned here -> [pipelineprocess](documentation\pipelineProcess.md)
+### pipeline process are mentioned here -> [pipelineprocess](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/documentation/pipelineProcess.md)
 ![pipeline](https://github.com/AlyZakaria/Host-FullStackApp-CircleCI/blob/main/Screenshots/pipelineProcess.png)
